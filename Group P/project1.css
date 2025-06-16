@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #121212;
+    font-family: montserrat,sans-serif;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    background-color: #000000;
+    padding: 24px;
+}
+.sidebar .logo img{
+    width: 130px;
+}
+.sidebar .navigation ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.sidebar .navigation ul li{
+    padding: 10px 0px;
+}
+.sidebar .navigation ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+.sidebar .navigation ul li a:hover,
+.sidebar .navigation  ul li a:active,
+.sidebar .navigation ul li a:focus{
+    color: #ffffff;
+}
+.sidebar .navigation ul li a:hover .fa,
+.sidebar .navigation  ul li a:active .fa,
+.sidebar .navigation ul li a:focus .fa{
+    color: #b3b3b3;
+}
+.sidebar .navigation ul li .fa{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.sidebar .navigation ul li a:hover .fa:hover,
+.sidebar .navigation  ul li a:active .fa:active,
+.sidebar .navigation ul li a:focus .fa:focus{
+    color: #ffffff;
+}
+.sidebar .policies{
+    position: absolute;
+    bottom: 100px;
+}
+.sidebar .policies ul{
+    list-style: none;
+}
+.sidebar .policies ul li{
+    padding-bottom: 5px;
+}
+.sidebar .policies ul li a{
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+}
+.sidebar .policies ul li a:hover,
+.sidebar .policies ul li a:active,
+.sidebar .policies ul li a:focus{
+    text-decoration: underline;
+}
+.main-container{
+    margin-left: 245px;
+    margin-bottom: 100px;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+}
+.topbar .prev-next-buttons button{
+    color: beige;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #080000;
+    position: relative;
+    left: 270px;
+    top: 4px;
+}
+.topbar .navbar{
+    display: flex;
+    align-items: center;
+}
+.topbar .navbar ul{
+    list-style: none;
+}
+.topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+}
+.topbar .navbar ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active, 
+.topbar .navbar ul li a:focus{
+    color: #ffffff;
+    font-size: 15px;
+}
+.topbar .navbar ul li.divider{
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+}
+.topbar .navbar button{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.topbar .navbar button:hover,
+.topbar .navbar button:active,
+.topbar .navbar button:focus{
+     background-color: #f2f2f2;
+}
+.player{
+width: 70%;
+    height: 950px;
+    background-color:rgb(27, 94, 117);
+    float: right;
+    text-align: left;
+    margin: 4%;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: beige;
+    border-radius: 3%;
+    position: relative;
+    right: 50px;
+}
+.player:hover{
+    background-color:rgb(43, 98, 117);
+}
+.player .album{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(7, 9, 10);
+    position: relative;
+    top: 60px;
+}
+.player .album .oneD img{
+    width: 100%;
+    height: 390px;
+    position: relative;
+    bottom: 60px;
+    border-top-right-radius: 19px;
+    border-top-left-radius: 19px;
+}
+.player .album .text{
+    color:black;
+    position: relative;
+    left: 40px;
+    bottom: 200px;
+    font-family: sans-serif;
+}
+.player .album .text h1{
+    font: size 900px;
+    bottom: 70px;
+    left: 40px;
+}
+.player .album .SK{
+    height:50px;
+    width: 50px;
+    background-color: #1db954;
+    color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+    bottom: 170px;
+}
+.player .album .SK .play{
+    height:100px;
+    width: 100px;
+    size: 100px;
+    position: relative;
+    left:20px;
+    top: 17px;
+}
+.player .album .follow input{
+    background-color:rgb(28, 95, 118);
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    bottom: 202px;
+    width: 55px;
+    height:25px;
+    left: 120px;
+}
+.player .album .pop h1{
+    color: black;
+    position: relative;
+    bottom: 170px;
+    left: 30px;
+}
+.player .album .pop hr{
+    position: relative;
+    bottom: 150px;
+}
+.player .album .is{
+    position: relative;
+    bottom: 112px;
+    left: 25px;
+}
+.player .album .is img{
+    width: 50px;
+    height:50px;
+    position: relative;
+    left: 35px;
+    bottom: 40px;
+}
+.player .album .is h2{
+    position: relative;
+    bottom:86px;
+    left: 105px;
+}
+.player .album .blank{
+    position: relative;
+    bottom: 137px;
+    left: 25px;
+}
+.player .album .blank img{
+    width: 50px;
+    height:50px;
+    position: relative;
+    left: 35px;
+    bottom: 40px;
+}
+.player .album .blank h2{
+    position: relative;
+    bottom:86px;
+    left: 105px;
+}
+.player .album .shake{
+    position: relative;
+    bottom: 162px;
+    left: 25px;
+}
+.player .album .shake img{
+    width: 50px;
+    height:50px;
+    position: relative;
+    left: 35px;
+    bottom: 40px;
+}
+.player .album .shake h2{
+    position: relative;
+    bottom:86px;
+    left: 105px;
+}
+.player .album .dream{
+    position: relative;
+    bottom: 200px;
+    left: 25px;
+}
+.player .album .dream img{
+    width: 50px;
+    height:50px;
+    position: relative;
+    left: 35px;
+    bottom: 40px;
+}
+.player .album .dream h2{
+    position: relative;
+    bottom:86px;
+    left: 105px;
+}
+.player .album .bad{
+    position: relative;
+    bottom: 234px;
+    left: 25px;
+}
+.player .album .bad img{
+    width: 50px;
+    height:50px;
+    position: relative;
+    left: 35px;
+    bottom: 40px;
+}
+.player .album .bad h2{
+    position: relative;
+    bottom:86px;
+    left: 105px;
+}
+.preview{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right,#ae2896,#509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.player .album .is:hover{
+    color: black;
+
+}
+.player .album .blank:hover{
+    color: black;
+
+}
+.player .album .shake:hover{
+    color: black;
+
+}
+.player .album .dream:hover{
+    color: black;
+
+}
+.player .album .bad:hover{
+    color: black;
+
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-color: black;
+    width: 280px;
+    position: relative;
+    left: 490px;
+    top: 99px;
+    place-items: center;
+    height: 400px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+#heading{
+    text-align: left;
+    font-size: 18px;
+    color: white;
+}
+#spotify img{
+    width: 100px;
+}
+#center{
+    text-align: center;
+}
+#main button{
+    background-color: #1db954;
+    color: black;
+    border: #fff;
+    border-radius: 20px;
+    padding: 12px;
+    width: 255px;
+    text-decoration: solid;
+}
+#main button :hover{
+    background-color: gray;
+}
+#main3{
+    text-align: left;
+}
+#main3 label{
+    padding: 25px;
+    color: white;
+    text-align: center;
+    left: 890px;
+}
+#main3 input{
+    place-items: center;
+    height: 30px;
+    width: 250px;
+}
+#main3 a{
+    text-decoration-color: #1db954;
+    color: #1db954;
+    width: 7px;
+    place-items: left;
+}
+
